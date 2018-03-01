@@ -41,12 +41,12 @@ public class AnalogGlitch : MonoBehaviour
 
     #region Private Properties
     [SerializeField]
-    Shader _shader;
+    public Shader _shader;
     Material _material;
     float _verticalJumpTime;
     #endregion
 
-    #region Functions
+    #region MonoBehaviour Functions
     void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         if (_material == null)
