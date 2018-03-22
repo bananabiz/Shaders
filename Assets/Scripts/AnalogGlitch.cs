@@ -67,7 +67,7 @@ public class AnalogGlitch : MonoBehaviour
         _material.SetFloat("_HorizontalShake", _horizontalShake * 0.2f);
 
         var cd = new Vector2(_colourDrift * 0.04f, Time.time * 606.11f);
-        _material.SetVector("_ColorDrift", cd);
+        _material.SetVector("_ColourDrift", cd);
 
         Graphics.Blit(source, destination, _material);
     }
