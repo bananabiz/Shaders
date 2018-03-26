@@ -1,7 +1,4 @@
-// Fake rain surface shader by Semjon Leinweber, 2013-04-04
-// please follow this licenses of creative commons http://creativecommons.org/licenses/by-nc/3.0/
-// be free to share and improve this shader how do you like
-// and please read ReadMe.txt
+// Fake rain surface shader
 
 Shader "FakeRain/FakeRainNew"
 {
